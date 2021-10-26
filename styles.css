@@ -1,0 +1,112 @@
+@import url(https://fonts.google.com/specimen/Roboto);
+@import url(https://fonts.google.com/specimen/Zen+Kaku+Gothic+Antique);
+@import url(https://fonts.google.com/specimen/Lato);
+@import url(https://fonts.google.com/specimen/Open+Sans);
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(105, 105, 105);
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 900;
+    padding: 0 20px;
+}
+nav {
+    text-align: center;
+    background-color: rgba(255, 144, 40, 0.5);
+    font-size: 20px;
+    padding: 2px;
+}
+nav a {
+    color: white;
+    padding: 0 20px;
+}
+
+h2 {
+    text-align: left;
+    padding: 0 20px;
+}
+
+section {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgb(63, 61, 61);
+    width: 1300px;
+    text-align: center;
+    /* spacing each section to have 10px margin on the bottom */
+    margin: 0 auto 10px;
+    /* positioning the first section spaced away from nav bar */
+    position: relative;
+    top: 10px;
+}
+
+.colors li {
+    display: inline-block;
+    width: 400px;
+    height: 70px;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.colors li#pastgreen {
+    background: rgb(98, 209, 172);
+}
+.colors li#gradblue {
+    background: linear-gradient(-45deg, #35577D, #141E30);
+}
+.colors li#steadymaroon {
+    background: rgb(54, 8, 0);
+}
+.fonts .container {
+    color:rgb(194, 173, 173);
+}
+
+.row1 .container {
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+    position: relative;
+    bottom: 70px;
+}
+.row2 .container {
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+    position: relative;
+    bottom: 50px;
+}
+
+.container h1 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+.container h2 {
+    font-size: 30px;
+    font-weight: 550;
+    font-family: 'Lato', sans-serif;
+}
+.container h3 {
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.container h4 {
+    font-size: 18px;
+    font-weight: 30;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+footer {
+    padding: 20px 30px 30px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+
+}
